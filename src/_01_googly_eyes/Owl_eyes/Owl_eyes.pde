@@ -11,17 +11,17 @@ void setup(){
 void draw(){
   if(mousePressed) {
     println(mouseX+" "+mouseY);}
-  if(mouseX<332){
-    mouseX = 332;
+  if(mouseY <178){
+    mouseY = 178;
   }
-  if(mouseY>217){
-    mouseX = 217;
+  if(mouseX>387){
+    mouseX = 387;
   }
-  if(mouseY>186){
-    mouseX = 186;
+  if(mouseX<318){
+    mouseX = 318;
   }
-    if(mouseX<364){
-    mouseX = 364;
+    if(mouseY>224){
+    mouseY = 224;
   }
   fill(#FFFFFF);
   ellipse(350,200,75,60);
