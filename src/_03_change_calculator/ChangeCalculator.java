@@ -30,6 +30,6 @@ public class ChangeCalculator {
 		change += dimes * 0.1;
 		change += quarters * 0.25;
 		// Tell the user how much money they have
-JOptionPane.showMessageDialog(null, " your total is "+change+" so... yeah");
+		JOptionPane.showMessageDialog(null, " your total is " + change + " so... yeah");
 	}
 }
