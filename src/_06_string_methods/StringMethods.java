@@ -28,7 +28,12 @@ for (int i = 0; i < favoriteAnimal.length();i++) {
 		//    Print the char's position to the console.
 		//    EXAMPLE: if your string is "abc" and you are searching 
 		//             for char 'b', then print "b is at index 1"
-		
+for (int i = 0; i < favoriteAnimal.length();i++) {
+	if(favoriteAnimal.charAt(i) == 'g' ) {
+		System.out.println(i);
+	}
+	System.out.println(favoriteAnimal.charAt(i));
+}
 	}
 }
 
